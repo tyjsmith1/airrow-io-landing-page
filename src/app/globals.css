@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+:root {
+	/* Base Colors */
+	--color-deep-blue: #2d3250;
+	--color-deep-blue-70: rgba(45, 50, 80, 0.7);
+	--color-sky-blue: #183ec2;
+	--color-sky-blue-70: rgba(24, 62, 194, 0.7);
+	--color-cloud-white: #f5f7fa;
+	--color-slate-gray: #627284;
+	--color-slate-gray-70: rgba(98, 114, 132, 0.7);
+
+	/* Secondary Colors */
+	--color-light-blue: #4a90e2;
+	--color-light-purple: #9b6fff;
+	--color-soft-coral: #ff9b9b;
+
+	/* Accent Colors */
+	--color-coral: #ff6b6b;
+	--color-coral-10: rgb(255, 107, 107, 0.1);
+	--color-coral-70: rgba(255, 107, 107, 0.7);
+	--color-purple: #6b4de6;
+	--color-purple-70: rgba(107, 77, 230, 0.7);
+	--color-purple-very-light: #f0e6ff;
+
+	/* Status Colors */
+	--color-success: #4caf50;
+	--color-success-light: #a5d6a7;
+	--color-alert: #ff9800;
+	--color-alert-light: #ffcc80;
+	--color-error: #f44336;
+	--color-error-light: #ef9a9a;
+
+	/* Gradient Stops - Main Blue */
+	--gradient-start: var(--color-cloud-white);
+	--gradient-mid-1: #1e4ed4;
+	--gradient-mid-1-50: rgba(30, 78, 212, 0.5);
+	--gradient-mid-2: #183ec2;
+	--gradient-end: var(--color-sky-blue);
+
+	/* Gradient Stops - Accent */
+	--gradient-accent-1: var(--color-purple);
+	--gradient-accent-2: var(--color-sky-blue);
+	--gradient-accent-3: var(--color-coral);
+	--gradient-purple-1: #e6e0ff;
+	--gradient-purple-2: #d4c1ff;
+
+	/* Gradient Stops - Light Mode */
+	--gradient-light-1: var(--color-cloud-white);
+	--gradient-light-2: #e8eeff;
+	--gradient-light-3: #d0e0ff;
+	--gradient-light-light: #ffffff;
+}
