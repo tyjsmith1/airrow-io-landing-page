@@ -7,6 +7,13 @@ import { Hero } from '@/components/Hero';
 import { LogoTicker } from '@/components/LogoTicker';
 import { Navbar } from '@/components/Navbar';
 import { ProductShowcase } from '@/components/ProductShowcase';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'airrow.io - Smart Job Application Tracking & Career Management',
+	description:
+		'Streamline your job search with airrow.io. Our AI-powered platform helps you track applications, manage deadlines, and gain insights to land your dream job faster. Get organized and stay ahead in your career journey.',
+};
 
 export default function Home() {
 	return (
