@@ -52,7 +52,7 @@ export const CallToAction = () => {
 						placeholder='your@email.com'
 						className='h-12 border border-[var(--color-slate-gray-70)] bg-white rounded-lg px-5 font-medium placeholder:text-[#9CA3AF] sm:flex-1'
 					/>
-					<button className='bg-[var(--color-sky-blue)] text-[var(--color-deep-blue)] h-12 rounded-lg px-5 whitespace-nowrap'>
+					<button className='bg-[var(--gradient-purple-2)] text-[var(--color-deep-blue)] h-12 rounded-lg px-5 whitespace-nowrap'>
 						Get early access
 					</button>
 				</form>

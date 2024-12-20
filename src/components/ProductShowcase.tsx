@@ -37,7 +37,7 @@ export const ProductShowcase = () => {
 					<Image
 						src={applications}
 						alt='The product screenshot'
-						className='mt-14 mx-auto'
+						className='mt-14 mx-auto shadow-xl'
 						ref={appImage}
 					/>
 				</motion.div>

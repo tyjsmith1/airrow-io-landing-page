@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import MenuIcon from '../assets/icons/menu.svg';
-import logoImage from '../assets/images/logosaas.png';
+import logoImage from '../assets/images/airrow.io-logo-icon-1-light.png';
 
 export const Navbar = () => {
 	return (
@@ -8,7 +8,7 @@ export const Navbar = () => {
 			<div className='px-4'>
 				<div className='py-4 flex items-center justify-between'>
 					<div className='relative'>
-						<div className='absolute w-full top-2 bottom-0 bg-[linear-gradient(to_right,#F87BFF,#FB92CF,#FFDD9B,#C2F0B1,#2FD8FE)] blur-md'></div>
+						<div className='absolute w-full top-2 bottom-0 bg-[linear-gradient(45deg,#6B4DE6,#FF9B9B,#FFB46A)] blur-md'></div>
 						<Image
 							src={logoImage}
 							alt='logo'

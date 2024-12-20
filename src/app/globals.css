@@ -37,7 +37,7 @@
 	/* Gradient Stops - Main Blue */
 	--gradient-start: var(--color-cloud-white);
 	--gradient-mid-1: #1e4ed4;
-	--gradient-mid-1-50: rgba(30, 78, 212, 0.5);
+	--gradient-mid-1-50: rgba(30, 78, 212, 0.502);
 	--gradient-mid-2: #183ec2;
 	--gradient-end: var(--color-sky-blue);
 
