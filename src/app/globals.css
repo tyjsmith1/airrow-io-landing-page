@@ -6,10 +6,12 @@
 :root {
 	/* Base Colors */
 	--color-deep-blue: #2d3250;
+	color: var(--color-deep-blue);
 	--color-deep-blue-70: rgba(45, 50, 80, 0.7);
 	--color-sky-blue: #183ec2;
 	--color-sky-blue-70: rgba(24, 62, 194, 0.7);
 	--color-cloud-white: #f5f7fa;
+	background-color: var(--color-cloud-white);
 	--color-slate-gray: #627284;
 	--color-slate-gray-70: rgba(98, 114, 132, 0.7);
 
@@ -17,6 +19,7 @@
 	--color-light-blue: #4a90e2;
 	--color-light-purple: #9b6fff;
 	--color-soft-coral: #ff9b9b;
+	--color-lighter-blue: #6eb1ff68;
 
 	/* Accent Colors */
 	--color-coral: #ff6b6b;
