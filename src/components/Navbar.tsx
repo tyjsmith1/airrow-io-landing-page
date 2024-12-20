@@ -9,44 +9,47 @@ export const Navbar = () => {
 				<div className='py-4 flex items-center justify-between'>
 					<div className='relative'>
 						<div className='absolute w-full top-2 bottom-0 bg-[linear-gradient(45deg,#6B4DE6,#FF9B9B,#FFB46A)] blur-md'></div>
-						<Image
-							src={logoImage}
-							alt='logo'
-							className='h-12 w-12 relative'
-						/>
+						<nav>
+							<a href='/'>
+								<Image
+									src={logoImage}
+									alt='logo'
+									className='h-12 w-12 relative'
+								/>
+							</a>
+						</nav>
 					</div>
 					<div className='border border-white border-opacity-30 h-10 w-10 inline-flex justify-center items-center rounded-lg sm:hidden'>
 						<MenuIcon className='text-[var(--color-deep-blue)]' />
 					</div>
 					<nav className='gap-6 items-center hidden sm:flex'>
 						<a
-							href='#'
+							href='/how-it-works'
 							className='text-opacity-60 text-[var(--color-deep-blue)] hover:text-opacity-100 transition'>
-							About
+							How It Works
 						</a>
 						<a
-							href='#'
+							href='/features'
 							className='text-opacity-60 text-[var(--color-deep-blue)] hover:text-opacity-100 transition'>
 							Features
 						</a>
 						<a
-							href='#'
+							href='/blog'
 							className='text-opacity-60 text-[var(--color-deep-blue)] hover:text-opacity-100 transition'>
-							Updates
+							Blog
 						</a>
 						<a
-							href='#'
+							href='/about'
 							className='text-opacity-60 text-[var(--color-deep-blue)] hover:text-opacity-100 transition'>
-							Help
+							About Us
 						</a>
 						<a
-							href='#'
-							className='text-opacity-60 text-[var(--color-deep-blue)][var(--color-deep-blue)] hover:text-opacity-100 transition'>
-							Customers
+							href='/join-waitlist'
+							className='text-opacity-60 text-[var(--color-deep-blue)] hover:text-opacity-100 transition'>
+							<button className='bg-[var(--color-deep-blue)] text-[var(--color-cloud-white)] py-2 px-4 rounded-lg'>
+								Join Waitlist
+							</button>
 						</a>
-						<button className='bg-[var(--color-deep-blue)] text-[var(--color-cloud-white)] py-2 px-4 rounded-lg'>
-							Get for free
-						</button>
 					</nav>
 				</div>
 			</div>
