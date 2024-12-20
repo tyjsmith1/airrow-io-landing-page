@@ -4,7 +4,7 @@ import logoImage from '../assets/images/airrow.io-logo-icon-1-light.png';
 
 export const Navbar = () => {
 	return (
-		<div className='bg-[var(--color-cloud-white)]'>
+		<div>
 			<div className='px-4'>
 				<div className='py-4 flex items-center justify-between'>
 					<div className='relative'>
