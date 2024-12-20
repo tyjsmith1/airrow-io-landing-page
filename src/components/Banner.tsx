@@ -7,7 +7,7 @@ export const Banner = () => {
 						Level up your job search experience -{' '}
 					</span>
 					<a
-						href='#'
+						href='#join-waitlist'
 						className='underline underline-offset-4 font-medium'>
 						Try the beta
 					</a>
